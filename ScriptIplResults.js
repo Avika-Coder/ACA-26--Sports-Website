@@ -1,14 +1,3 @@
-var firebaseConfig = {
-    apiKey: "AIzaSyCldbPpfsZSm1_x_jmLMH23OobXgJZ-LbI",
-    authDomain: "ipl-results-c12a7.firebaseapp.com",
-    databaseURL: "https://ipl-results-c12a7-default-rtdb.firebaseio.com",
-    projectId: "ipl-results-c12a7",
-    storageBucket: "ipl-results-c12a7.appspot.com",
-    messagingSenderId: "89597734955",
-    appId: "1:89597734955:web:2ab46118732fc8d2acba6e"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);;
 
 
 document.getElementById('resultst').addEventListener('submit',submitForm);
